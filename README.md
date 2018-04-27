@@ -32,5 +32,8 @@ explanation of ELEMENT codes and their units as well as the M-FLAG, Q-FLAGS and 
 The OBS-TIME field is populated with the observation times contained in NOAA/NCDC’s Multinetwork
 Metadata System (MMS)
 
-# to run the script
+# To run the script
 spark-submit weather.py
+
+# To view the analysis results
+hadoop fs -cat /user/username/resultsfilename/*
